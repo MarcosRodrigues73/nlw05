@@ -3,7 +3,7 @@ import { User } from "../entities/User";
 import { UsersRepository } from "../repositories/UsersRepository";
 
 //criar classe UserService
-class UserService {
+class UsersService {
 
     private usersRepository: Repository<User>
 
@@ -37,4 +37,4 @@ class UserService {
 }
 
 //criar exportação da classe UserService
-export {UserService}
+export {UsersService}
